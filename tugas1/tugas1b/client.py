@@ -15,10 +15,11 @@ buf=1024
 try:
     #mengirim nama file
     sock.sendto(file_name.encode(),server_address)
-    #membuka file dan membaca
+    #menerima isi file, sesuai request
     data = sock.recv(buf)
     print('Receive file...')
     while(data):
+        #menulis isi file ke file baru
         file = open('received_' + file_name, 'wb')
         file.write(data)
         sock.settimeout(2)

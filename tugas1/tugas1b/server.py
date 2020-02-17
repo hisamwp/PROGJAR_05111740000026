@@ -22,10 +22,11 @@ while True:
         #print(f"received {data}")
         print ("Requested file:" + file_name.decode())
         f = open(file_name.decode(),'rb')
-        #menerima isi file dari client
+        #membaca isi file yang direquest client
         data = f.read();
         connection.sendto(data, client_address)
         while (data):
+            #mengirim ke client
             if(connection.sendto(data,server_address)):
                 print ("sending ...")
                 data = f.read(buf)
