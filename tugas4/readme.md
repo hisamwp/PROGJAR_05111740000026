@@ -24,6 +24,7 @@ Lalu, file baru akan muncul di folder Client,
 ![alt](https://github.com/hisamwp/PROGJAR_05111740000026/blob/master/tugas4/img/file-terdownload.png)
 
 <b>Protokol List</b>
+
 Protokol list adalah protokol untuk melihat file-file yang berada di folder Server.
 Berikut foto saat dijalankannya protokol list:
 ![alt](https://github.com/hisamwp/PROGJAR_05111740000026/blob/master/tugas4/img/list-jalan.png)
